@@ -1,15 +1,20 @@
 import turtle
-turtle.shape('turtle')
+a=20
 i=1
-n=50
-turtle.left(90)
-def baterfly(i):
-  turtle.circle(n)
-  turtle.circle(-n)
+turtle.shape('turtle')
 while i<=10:
-  baterfly(i)
-  n=n+5
-  i=i+1
-
-
+    turtle.forward(a)
+    turtle.left(90)
+    turtle.forward(a)
+    turtle.left(90)
+    turtle.forward(a)
+    turtle.left(90)
+    turtle.forward(a)
+    turtle.right(45)
+    turtle.penup()
+    turtle.forward(14)
+    turtle.left(135)
+    turtle.pendown()
+    a=a+20
+    i=i+1
 
