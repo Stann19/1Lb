@@ -1,9 +1,11 @@
 import turtle
-a=0
+i=1
 turtle.shape('turtle')
-while a<=360:
-    turtle.forward(1)
-    turtle.left(1)
-    a=a+1
-
+while i<=12:
+    turtle.right(30)
+    turtle.forward(80)
+    turtle.left(180)
+    turtle.forward(80)
+    turtle.left(180)
+    i=i+1
 
